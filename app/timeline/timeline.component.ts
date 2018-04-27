@@ -231,7 +231,7 @@ export class TimelineComponent extends BaseComponent implements OnInit {
                     });
                 });
             }).catch(function (e) {
-                console.log('Error');
+                //console.log('Error');
             });
     }
 
