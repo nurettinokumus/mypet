@@ -1,0 +1,29 @@
+.icon {
+    font-family: "icomoon";
+    font-size: 18;
+ }
+ SegmentedBar
+{
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 30;
+}
+.selected{
+    color: #9148dc;
+    background-color:#4fd2c2;
+}
+.menuBtn{
+    background-color: #353535; 
+    color: #ffffff; 
+    font-size: 20;height:100%; 
+    width:100% ; border-color: transparent; 
+    border-width: 1;
+}
+.selectedMenuBtn
+{
+    background-color: #353535; 
+    font-size: 20;height:100%; 
+    width:100% ; border-color: transparent; 
+    border-width: 1;
+    color: #9148dc;
+}

@@ -1,0 +1,34 @@
+
+
+#dimmer{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.bordered {
+    border-width: 3; 
+    border-color: #988f8a;
+}
+
+#profil{
+    border-radius: 60;
+    margin: 0 auto;
+    width: 90;
+    height: 90;
+    left: 150;
+    top: 30;
+}
+
+#calendar Label{
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+#calendar Label:nth-child(3){
+    background-color: #ba77ff;
+}
+
+.colored{
+    background-color: #ba77ff;
+}

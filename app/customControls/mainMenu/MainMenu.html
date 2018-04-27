@@ -1,0 +1,19 @@
+<!-- <SegmentedBar id="bar" class="icon" (selectedIndexChanged)="onselectedIndexChanged($event)" [selectedIndex]="selectedIndex">
+    <SegmentedBarItem title="&#xe902;" [class]="selectedIndex==0?'selected':''"></SegmentedBarItem>
+    <SegmentedBarItem title="&#xe901;" [class]="selectedIndex==1?'selected':''"></SegmentedBarItem>
+    <SegmentedBarItem title="&#xe900;" [class]="selectedIndex==2?'selected':''"></SegmentedBarItem>
+    <SegmentedBarItem title="&#xe903;" [class]="selectedIndex==3?'selected':''"></SegmentedBarItem>
+    <SegmentedBarItem title="&#xe904;" [class]="selectedIndex==4?'selected':''"></SegmentedBarItem>
+</SegmentedBar> -->
+<GridLayout columns="*,*,*,*,*" rows="50" style="background-color: #353535;border:none">
+    <button col="0" text="&#xe902;" [class]="'icon '+ (selectedIndex==0?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(0)"
+        (longpress)="longPressPrev($event)"></button>
+    <button col="1" text="&#xe901;" [class]="'icon '+ (selectedIndex==1?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(1)"
+        (longpress)="longPressPrev($event)"></button>
+    <button col="2" text="&#xe900;" [class]="'icon '+ (selectedIndex==2?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(2)"
+        (longpress)="longPressPrev($event)" ></button>
+    <button col="3" text="&#xe903;" [class]="'icon '+ (selectedIndex==3?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(3)"
+        (longpress)="longPressPrev($event)"></button>
+    <button col="4" text="&#xe904;" [class]="'icon '+ (selectedIndex==4?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(4)"
+        (longpress)="longPressPrev($event)"></button>
+</GridLayout>

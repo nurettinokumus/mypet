@@ -1,0 +1,16 @@
+<ScrollView sdkExampleTitle sdkToggleNavButton >
+        <StackLayout >
+            <!-- <Label text='Etkinlik Oluştur' class="m-15 h3"   textWrap="true"></Label> -->
+    
+            <SegmentedBar  class="icon"  (selectedIndexChanged)="onselectedIndexChanged($event)" [selectedIndex]="selectedIndex" >
+                    <SegmentedBarItem [title]="item.TypeName" *ngFor="let item of eventTypeList" ></SegmentedBarItem>
+                </SegmentedBar>
+    
+         
+                <TimePicker id="eventTimePicker"  (timeChange)="onTimeChanged($event)" verticalAlignment="center" class="m-15"></TimePicker>
+    
+           
+    
+            <Button class="btn btn-primary btn-active" text="Kaydet" (tap)="submit()"></Button>   
+        </StackLayout>
+    </ScrollView>

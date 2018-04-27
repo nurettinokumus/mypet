@@ -1,0 +1,27 @@
+{
+    "giris": "Giriş",
+    "kayitol": "Kayıt ol",
+    "sosyalmedyagirisi": "Sosyal Meyda Girişi",
+    "isim": "İsim",
+    "soyad": "Soyisim",
+    "devam": "Devam",
+    "mail": "E-Posta Adresi",
+    "sifre": "Şifreniz",
+    "sifremiunuttum": "Şifremi Unuttum",
+    "simdikaydolun": "Şimdi Kaydolun",
+ 
+    "monthNames":{
+        "ocak":"Ocak",
+        "subat":"Şubat",
+        "mart":"Mart",
+        "nisan":"Nisan",
+        "mayis":"Mayıs",
+        "haziran":"Haziran",
+        "temmuz":"Temmuz",
+        "agustos":"Ağustos",
+        "eylul":"Eylül",
+        "ekim":"Ekim",
+        "kasim":"Kasım",
+        "aralik":"Aralık"
+    }
+}

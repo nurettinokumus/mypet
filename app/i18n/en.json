@@ -1,0 +1,26 @@
+{
+    "giris": "Login",
+    "kayitol": "Register",
+    "sosyalmedyagirisi": "Sign in with social media",
+    "isim": "Name",
+    "soyad": "Surname",
+    "devam": "Continue",
+    "mail": "E-mail address",
+    "sifre": "Password",
+    "sifremiunuttum": "I forgot my password",
+    "simdikaydolun": "Sign Up",
+    "monthNames": {
+        "ocak": "January",
+        "subat": "February",
+        "mart": "March",
+        "nisan": "April",
+        "mayis": "May",
+        "haziran": "June",
+        "temmuz": "July",
+        "agustos": "August",
+        "eylul": "September",
+        "ekim": "October",
+        "kasim": "November",
+        "aralik": "December"
+    }
+}
