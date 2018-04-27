@@ -11,7 +11,7 @@
     <button col="1" text="&#xe901;" [class]="'icon '+ (selectedIndex==1?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(1)"
         (longpress)="longPressPrev($event)"></button>
     <button col="2" text="&#xe900;" [class]="'icon '+ (selectedIndex==2?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(2)"
-        (longpress)="longPressPrev($event)" ></button>
+        (longpress)="longPressPrev($event)" (touch)="ontouch($event)"></button>
     <button col="3" text="&#xe903;" [class]="'icon '+ (selectedIndex==3?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(3)"
         (longpress)="longPressPrev($event)"></button>
     <button col="4" text="&#xe904;" [class]="'icon '+ (selectedIndex==4?' selectedMenuBtn':' menuBtn')" (tap)="onNavigate(4)"

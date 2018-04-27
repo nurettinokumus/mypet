@@ -183,10 +183,13 @@ export class TimelineComponent extends BaseComponent implements OnInit {
                 this.blur
                     .on(imageView, "kitty", 25)
                     .then((imageSource?: any) => {
+
                         let image: any = this.page.getViewById("profileImageBlured");
+                        
                         image.imageSource = imageSource;
                     })
             }, 200);
+
         }
     }
 
@@ -221,14 +224,14 @@ export class TimelineComponent extends BaseComponent implements OnInit {
                     selected.getImage().then((source) => {
                         appSettingModule.clear();
                         var path = _that.fileProvider.SaveProfileImage(_that.petId, selected.fileUri)
-                        console.log("değisen :" + path)
+                        //console.log("değisen :" + path)
                         _that.profileImagePath = path;
                         appSettingModule.setString('profileImagePath', path);
                         _that.resetBlur();
                     });
                 });
             }).catch(function (e) {
-                // console.log(e);
+                console.log('Error');
             });
     }
 
